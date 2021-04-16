@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 1rem;
+  font-family: nunito, sans-serif;
 }
 
 .hidden {
@@ -7,8 +8,18 @@ body {
 }
 
 nav {
-  padding: 0 1rem;
+  padding: 0 0;
+  text-align: center;
   border-bottom: 1px solid black;
+}
+
+h3 {
+  text-align: center;
+}
+
+circle {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
 main {
