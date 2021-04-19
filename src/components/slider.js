@@ -100,12 +100,14 @@ const Sliders = ({quizName, xQuestion, xRangeLowTickLabel, xRangeMidTickLabel, x
               </div>
             </div>
             <div className='buttons'>
-              <button className='submit-button disabled'>
-                Submit
+            <button className='submit-button disabled'>
+                See How You Compare To Others
               </button>
-              <button className='skip-button' onClick={skipToAnswers}>
+            <button className='skip-button' onClick={skipToAnswers}>
                 Skip and See Answers
               </button>
+
+
             </div>
           </div>
           <div className='past-clicks'>
