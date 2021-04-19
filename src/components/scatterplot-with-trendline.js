@@ -40,7 +40,7 @@ export default class ScatterPlot extends React.Component {
 
     return (
       <div>
-        <h3>Results</h3>
+        <h3>Your Results</h3>
         <svg
           viewBox='0 0 800 600'
           className="chart"
